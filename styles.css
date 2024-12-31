@@ -1,0 +1,279 @@
+/* Basic Reset */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #333, #555);
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    transition: background-position 0.5s ease-out;
+}
+
+header:hover {
+    background-position: 0% 0%;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+header nav .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav .logo:hover {
+    color: #ccc;
+}
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+/* Hero Section */
+
+.hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-image: url('images/First.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Flyers Section */
+
+.flyers {
+    padding: 2em;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.flyer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flyer-image {
+    width: 30%;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.flyer-image:hover {
+    transform: scale(1.1);
+}
+
+/* About Section */
+
+.about {
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Programs Section */
+
+.programs {
+    padding: 2em;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.programs h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.programs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.programs li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        height: 50vh;
+    }
+    .hero h1 {
+        font-size: 2rem;
+    }
+    .hero p {
+        font-size: 1rem;
+    }
+    .flyer-image {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero {
+        height: 30vh;
+    }
+    .hero h1 {
+        font-size:
+    }}
+
+    /* Contact Us Section */
+
+.contact-us {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    }
+    
+    .contact-us h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .contact-us p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+    .contact-us a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .contact-us a:hover {
+    color: #ccc;
+    }
