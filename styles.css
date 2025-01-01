@@ -1,17 +1,18 @@
 /* Basic Reset */
 header {
-    background-color: #333;
+    background-color: #bdcfff;
     color: #fff;
     padding: 1em;
     text-align: center;
     position: fixed;
     top: 0;
     left: 0;
+    height: 10%;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(to bottom, #333, #555);
-    background-size: 100% 200px;
+    box-shadow: 0 2px 4px rgb(143, 171, 255);
+    background-image: linear-gradient(to bottom, #9ebef3, #bed7ff);
+    background-size: 100% 250px;
     background-position: 0% 100%;
     transition: background-position 0.5s ease-out;
 }
@@ -277,3 +278,23 @@ footer p {
     .contact-us a:hover {
     color: #ccc;
     }
+
+        /* Donate now button */
+
+        .donate-btn {
+background-color: #007bff;
+color: #ffffff;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+border-radius: 5px;
+transition: background-color 0.3s ease-in-out;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+transform: translateY(0);
+}
+
+.donate-btn:hover {
+background-color: #0069d9;
+transform: translateY(-2px);
+}
