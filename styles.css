@@ -113,14 +113,14 @@ header nav a:hover {
 
 /* Hero Section */
 
-.hero {
+ .hero {
     text-align: center;
     padding: 4rem 1rem;
-    background-image: url('images/First.jpeg');
+    background-image: url('images/First2.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff;
-    height: 100vh;
+    color: rgb(52, 0, 124);
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +135,7 @@ header nav a:hover {
 
 .hero p {
     font-size: 1.5rem;
-    color: #f0f0f0;
+    color: #110267;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
